@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- DOCTYPE indicamos que el doc es tipo html -->
+
+<!-- Creamos la etiqueta html que engloba todo el doc -->
+<html lang="es">
+    <!-- Creamos la etiqueta head que va a contener
+    metadatos -->
+    <head>
+        <title>Mi Primera Web</title>
+    </head>
+    <!-- Creamos el body que es lo que se va a mostrar
+    en la página -->
+    <body>
+        <h1>Título de mi web</h1>
+
+        <h2>Bienvenidos a mi web</h2>
+
+        <!-- dentro de la etiqueta p creamos body
+        la etiqueta br hace un salto de linea.
+        hr te hace salto de linea pintando una linea
+    
+        LISTAS: 
+        Tener info conjunta que nos interesa mostrarlo en forma de lista
+        <ul>/ <ol> crea una lista y <li> enumera elementos
+        En imagenes hay que usar rutas relativa (no copiar la ruta completa)
+    
+        TABLAS
+        Tener filas y columnas
+        table para tabla. Atributo border para dale aspecto de tabla
+        Tr son filas
+        Th son encabezados de tablas
+        td una fila cualquiera. Colspan expande una fila
+    
+        FORMULARIOS
+        <form>. Atributos action y method se ven en cursos de php
+        <label> creamos la etiqueta de un valor del formulario
+        <input> Creamos el tipo de cosa que queremos que el user rellene
+        --> 
+        <p>
+            Lorem Ipsum es simplemente el texto de 
+            relleno de las imprentas y archivos de 
+            texto. Lorem Ipsum <br/> ha sido el texto de 
+            relleno estándar de las industrias desde 
+            el año 1500, cuando un impresor
+                
+        </p>
+
+        <p>
+            Lorem Ipsum es simplemente el texto de 
+            relleno de las imprentas y archivos de 
+            texto. Lorem Ipsum ha sido el texto de 
+            relleno estándar de las industrias desde 
+            el año 1500, cuando un impresor
+                
+        </p>
+
+        <hr/>
+            <h2>
+                Imagenes en HTML
+            </h2> 
+            <img src = "Imagenes/ardilla.jpg" alt="Imagen de una ardilla"  title="Foto de ardilla" width="450px"/>
+        </hr>
+
+
+        <h3>
+            Tercer encabezado de la página
+        </h3>
+
+        <p>
+            Lorem Ipsum <strong>es simplemente </strong>el texto de 
+            relleno de las imprentas y archivos de 
+            texto. Lorem Ipsum ha sido el texto de 
+            <blockquote>
+            <span id="resaltado" class = "rojo amarillo">relleno estándar</span> de las industrias desde 
+            el año 1500, cuando un impresor
+            </blockquote>
+
+        </p>
+
+        <h3>Formulario</h3>
+        <form>
+            <p>
+                <label for="nombre"> Nombre </label>
+                <input type="text" name ="nombre" placeholder="Escribe tu nombre"/>
+            </p>
+
+            <p>
+            <label for="desc"> Descripción </label>
+            <input type="textarea" name ="desc"/>
+            </p>
+
+            <p>
+                <input type="radio" name="genero" value="Hombre" /> Hombre <br/>
+                <input type="radio" name="genero" value="Mujer" /> Mujer <br/>
+                <input type="radio" name="genero" value="Prefiero no decirlo" />Prefiero no decirlo <br/>
+
+            </p>
+
+            <p>
+                <select name="generodos">
+                    <option value="Hombre"> Hombre</option>
+                    <option value="Mujer"> Mujer</option>
+                    <option value="Nada"> Nada</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar formulario" />
+            </p>
+        </form>
+
+        <h3> Lista de frutas</h3>
+        <ul>
+            <li>Manzana</li>
+                <ul>
+                    <l1>
+                        Manzana roja
+                    </l1>
+                    <l1>
+                        Manzana verde
+                    </l1>
+                </ul>
+            <li>Naranja</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+
+        </ul>
+
+        <h3>Tablas</h3>
+
+        <table border = "1">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Pais</th>
+            </tr>
+
+            <tr>
+                <td>Javier</td>
+                <td>Guillén</td>
+                <td>España</td>
+            </tr>
+
+            <tr>
+                <td>Kevin</td>
+                <td colspan="2">López</td>
+
+            </tr>
+        </table>
+
+
+    </body>
+
+</html>
